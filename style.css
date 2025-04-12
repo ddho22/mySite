@@ -1,7 +1,128 @@
+html{
+  --color-accent: oklch(65% 60% 0);
+  accent-color: var(--color-accent);
+}
+
 body {
     /* Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font
        */
     font: 100%/1.5 system-ui;
     display: grid;
+    max-width: 100ch;
+    margin-inline: max(1em, (100% - 100ch) / 2);
   }
+
+
+nav ul {
+  display: contents;
+}
+
+nav li {
+  display: contents;
+}
+
+span {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+}
+
+nav a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav a.current {
+  border-bottom: 0.4em solid oklch(80% 3% 200);
+  padding-bottom: 0.1em;
+}
+
+nav a:hover {
+  border-bottom: 0.4em solid var(--color-accent);
+  padding-bottom: 0.1em;
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+form label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+
+form button {
+  grid-column: 1 / -1;
+}
+
+div.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+div.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+div.projects h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+section.resume {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  padding: 1em;
+  border-radius: 1em 1em 0 0;
+}
+
+section.resume a {
+  color: inherit;
+  
+}
+
+section.resume article {
+  display: block;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+section.resume time {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+section.resume article:hover {
+  background-color: oklch(80% 3% 200 / .3);
+}
+
+section.resume:hover {
+  background-color: oklch(80% 3% 200 / .3);
+}
