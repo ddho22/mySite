@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Web Scrapper",
+        "year": 2020,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Scrapped millions of reviews from MyAnimeList"
+    },
+    {
+        "title": "Deceptive Visualization",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Currently working on creating deceptive and truthful visualizations of economic indicators."
+    },
+    {
+        "title": "Data visualization",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Visualized data of snack quality by groccery store."
+    },
+    {
+        "title": "Review of Enterprise-wide preventative measures",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
+        "description": "Identified shortcommings in the company's preventative measures that were reported to executive level management."
+    },
+    {
+        "title": "Current State AI GAP Assessemnt",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "GAP assessment of the company's current state compared to the neccessary state to implement AI."
+    },
+    {
+        "title": "Automation of Bi-annual enteprise risk reporting",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Automating a highly manual process to alleviate staffing shortages"
+    },
+    {
+        "title": "Golf fitting performance reporting",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Created performance reports of cients after a golf fitting session."
+    },
+    {
+        "title": "True Red vs True Blue League of Legends",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "DSC 80 final project analysing the difference between True Red and True Blue sides"
+    },
+    {
+        "title": "World of imagination",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Cinematograph project currently inprogress to match the vibes of the song of the same name"
+    },
+    {
+        "title": "AI implementation in the workplace",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Proposal for implementation of an AI platform"
+    },
+    {
+        "title": "Space...",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "DSC 10 final proejct exploring SPACE"
+    },
+    {
+        "title": "Grass Volleyball \"Club\"",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Growing a community of volleyball enthusiast by hosting various grass volleyball events throughout the quarter."
+    }
+]

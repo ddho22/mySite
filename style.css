@@ -139,3 +139,17 @@ label.color-scheme {
   right: 1rem;
   font-size: 80%;
 }
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem; 
+}
+
+dt {
+  grid-row: 1;
+}
+
+dd {
+  grid-row: 2;
+}
