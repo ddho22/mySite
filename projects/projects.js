@@ -89,5 +89,4 @@ searchInput.addEventListener('change', (event) => {
   // re-render legends and pie chart when event triggers
   renderProjects(filteredProjects, projectsContainer, 'h2');
   renderPieChart(filteredProjects);
-  console.log(1);
 });
