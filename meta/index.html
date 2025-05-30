@@ -13,6 +13,14 @@
     <h1>Meta</h1>
     <div id="stats"></div>
     <h2>Commits by time of day</h2>
+    <div class="commit-slider">
+      <label>
+        Show commits until:
+        <input type="range" id="commit-progress" value = "50" min="0" max="100">
+        <time id="selectedTime" value="Select">Select Time</time>
+      </label>
+    </div>
+
     <div id="chart"></div>
 
     <dl id="commit-tooltip" class="info tooltip" hidden>

@@ -221,6 +221,10 @@ circle {
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+  @starting-style {
+    r: 0;
+    transition: all 200ms, r calc(var(--r) * 100ms);
+  }
 }
 
 circle:hover {
@@ -265,6 +269,15 @@ dl.info[hidden]:not(:hover, :focus-within) {
   }
 }
 
+.commit-slider > label {
+  flex: 1;
+  align-items: baseline;
+}
+
+.commit-slider > time {
+  margin-left: auto;
+}
+
 .selection {
   fill-opacity: 0.1;
   stroke: black;
@@ -275,4 +288,6 @@ dl.info[hidden]:not(:hover, :focus-within) {
 
 circle.selected {
   fill: #ff6b6b;
+
 }
+
