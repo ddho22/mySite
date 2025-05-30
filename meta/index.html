@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meta</title>
-    <link href="../style.css" type="text/css" rel="stylesheet">
-    <script src="../global.js" type="module"></script>
-    <script src="main.js" type="module"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta</title>
+  <link href="../style.css" type="text/css" rel="stylesheet">
+  <script src="../global.js" type="module"></script>
+  <script src="main.js" type="module"></script>
 
 </head>
+
 <body>
-    <h1>Meta</h1>
-    <div id="stats"></div>
-    <h2>Commits by time of day</h2>
-    <div class="commit-slider">
-      <label>
-        Show commits until:
-        <input type="range" id="commit-progress" value = "50" min="0" max="100">
-        <time id="selectedTime" value="Select">Select Time</time>
-      </label>
-    </div>
+  <h1>Meta</h1>
+  <div id="stats"></div>
+  <h2>Commits by time of day</h2>
+  <div class="commit-slider">
+    <label>
+      Show commits until:
+      <input type="range" id="commit-progress" value="100" min="0" max="100">
+      <time id="selectedTime" value="Select">Select Time</time>
+    </label>
+  </div>
+  <div id="scrolly-1">
+    <div id="scatter-story">filler</div>
+    <div id="scatter-plot">
+      <div id="chart"></div>
 
-    <div id="chart"></div>
-
-    <dl id="commit-tooltip" class="info tooltip" hidden>
+      <dl id="commit-tooltip" class="info tooltip" hidden>
         <dt>Commit</dt>
         <dd>
           <a href="" id="commit-link" target="_blank"></a>
         </dd>
-      
+
         <dt>Date</dt>
         <dd id="commit-date"></dd>
-      
+
         <!-- Add: Time, author, lines edited -->
       </dl>
       <p id="selection-count">No commits selected</p>
       <dl id="language-breakdown" class="stats"></dl>
+    </div>
+  </div>
 
+
+  <dl id="files">
+
+  </dl>
 
 </body>
+
 </html>
