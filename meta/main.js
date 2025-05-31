@@ -127,6 +127,8 @@ function onTimeSliderChange(slider) {
   selectedTime.text(timeScale.invert(commitProgress).toLocaleString());
 }
 
+
+
 function updateScatterPlot(data, commits) {
   const width = 1000;
   const height = 600;
@@ -242,7 +244,7 @@ function updateFileDisplay(filteredCommits) {
 
 }
 
-
+updateFileDisplay(commits);
 
 slider.on('input', function () {
 
